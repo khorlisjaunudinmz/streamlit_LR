@@ -1,15 +1,15 @@
-# **Deteksi Kanker Payudara**
+# *Prediksi Kanker Payudara Menggunakan Machine Learning*
 
-Classifier webapp dibangun dengan menggunakan Streamlit (Python-framework). Tujuannya untuk mendeteksi kanker payudara atau tidak. Algoritma yang digunakan adalah Logistik Regration.
+Classifier web app dibangun dengan menggunakan Streamlit (Python-framework). Tujuannya untuk mengkategorikan penyakit kanker payudara berdasarkan parameter inputan. Algoritma yang digunakan adalah Logistic Regression. App ini juga dapat mengenerate visualized report dengan data pasien.
 
 
-## **Technologies Used:**
+## *Technologies Used:*
 
 ### For Development
 * Python3 (Programming Language)
 * Streamlit (Python-Framework)
 * Jupyter Notebook
-* VS Code (IDE)
+* Google Colaboratory
 
 ### For EDA
 * NumPy
@@ -19,17 +19,12 @@ Classifier webapp dibangun dengan menggunakan Streamlit (Python-framework). Tuju
 
 ### For Model-training
 * sklearn.model_selection - train_test_split
-* sklearn.dt - Decision Tree
+* sklearn.linear_model - LogisticRegression
 
 
 ### Deployment
 * GitHub
 
 ## References
-* For Dataset [Kaggle](https://www.kaggle.com/search?q=breast+cancer)
+* For Dataset [Kaggle](https://www.kaggle.com/datasets/yasserh/breast-cancer-dataset)
 * For UI [Streamlit](https://streamlit.io/)
-
-
-## Koreksi 
-* Error (index)
-Di file app.py hapus baris #18 
